@@ -8,26 +8,11 @@
 @import "neat/neat";
 
 /*//////////////////////////////////////
-//  colors
-//////////////////////////////////////*/
-
-$light:#fff;
-$dark: #333;
-$primary: #00B2EA;
-
-/*//////////////////////////////////////
-//  fonts
-//////////////////////////////////////*/
-$font-sans: 'Helvetica';
-$font-serif: 'Crimson Sans', $georgia;
-
-/*//////////////////////////////////////
 //  extension on skeleton
 //////////////////////////////////////*/
 $grid-columns: 12;
 $width:1200px;
 $max-width:1200px;
-$font-size:10;
 $paragraph-size:1.6;
 
 *{
@@ -132,7 +117,5 @@ body,html{
 
 body{
   font-family: $helvetica;
-  font-size: 100%;
-  margin: 20px;
   position: relative;
 }
